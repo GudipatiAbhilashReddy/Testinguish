@@ -433,8 +433,8 @@ h3,h4 {
 }
 
 .footer .footer-logo {
-  width: 85px;
-  height: auto;
+  width: 14%;
+    height: auto;
 }
 
 .navbar-fixed-top .navbar-collapse {
@@ -446,6 +446,7 @@ h3,h4 {
   transition-duration: .3s;
   transition-property: all;
   transition-timing-function: cubic-bezier(.7,1,.7,1);
+  height: 89px;
 }
 
 .header .navbar-toggle {
@@ -679,7 +680,7 @@ h3,h4 {
   }
 
   .page-on-scroll .header .navbar {
-    background: #fff;
+    background: #a7dae0;
     border-bottom-color: #f0f0f0;
     transition-duration: .3s;
     transition-property: all;
@@ -1050,8 +1051,7 @@ h3,h4 {
 }
 
 .content {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 28px;
 }
 
 .content-sm {
