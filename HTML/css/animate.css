@@ -3272,7 +3272,7 @@ Copyright (c) 2015 Daniel Eden
 }
 .icon-bar {
   position: fixed;
-  top: 82%;
+  top: 74%;
   right: 0%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
