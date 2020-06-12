@@ -466,7 +466,7 @@ h3,h4 {
   transition-duration: .3s;
   transition-property: all;
   transition-timing-function: cubic-bezier(.7,1,.7,1);
-  height: 69px;
+  height: 88px;
   background: chocolate;
 }
 
@@ -603,17 +603,33 @@ h3,h4 {
 
 .header .nav-item-hover:after {
   position: absolute;
-  top: 45px;
-  left: 0;
-  width: 9px;
+  top: 57px;
+  left: 15px;
+  width: 69px;
   height: 2px;
   background: #17bed2;
   opacity: 0;
   content: " ";
   transition-duration: .4s;
   transition-property: all;
-  transition-timing-function: cubic-bezier(.7,1,.7,1);
+  border-bottom: 3px solid #3f719c;
+
 }
+
+.header .nav-item-hover:selected {
+  position: absolute;
+  top: 57px;
+  left: 15px;
+  width: 69px;
+  height: 2px;
+  background: #17bed2;
+  opacity: 0;
+  content: " ";
+  transition-property: all;
+  border-bottom: 3px solid #3f719c;
+
+}
+
 
 @media (max-width:991px) {
   .header {
@@ -714,7 +730,7 @@ h3,h4 {
 
 
   .page-on-scroll .header .navbar {
-    background: #a7dae0;
+    background: chocolate;
     border-bottom-color: #f0f0f0;
     transition-duration: .3s;
     transition-property: all;
