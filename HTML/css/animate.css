@@ -3318,3 +3318,7 @@ Copyright (c) 2015 Daniel Eden
   font-size: 30px;
 }
 
+.footer .footer-seperator ul li a {
+  list-style: none;
+  margin-right: 200px;
+}
