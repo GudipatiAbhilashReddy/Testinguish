@@ -3603,6 +3603,7 @@
   animation-duration: 500ms;
 }
 
+<<<<<<< HEAD:HMTL/lib/animate/animate.css
 .animated.slow {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -3621,3 +3622,9 @@
     transition: none !important;
   }
 }
+=======
+.footer .footer-seperator ul li a {
+  list-style: none;
+  margin-right: 200px;
+}
+>>>>>>> 8b66447261862cfdea7ff2e867f17638967e18fe:HTML/css/animate.css
