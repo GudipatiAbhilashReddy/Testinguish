@@ -363,7 +363,7 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #2eca6a;
+  background-color: black;
   width: 35px;
 }
 
@@ -605,9 +605,14 @@ a:hover {
   transform: scaleX(1);
 }
 
-.navbar-default.navbar-trans .nav-link:before {
+/* .navbar-default.navbar-trans .nav-link:before {
   background-color: #2eca6a;
-}
+} */
+
+
+
+
+
 
 .navbar-default.navbar-trans .nav-link:hover {
   color: #ffff;
